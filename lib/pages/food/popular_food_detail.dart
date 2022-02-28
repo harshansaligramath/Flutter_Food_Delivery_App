@@ -30,7 +30,7 @@ class PopularFoodDetail extends StatelessWidget {
                       image: AssetImage("assets/image/food0.png"))),
             ),
           ),
-         //two icons
+          //two icons
           Positioned(
             top: Dimensions.height45,
             left: Dimensions.width20,
@@ -43,49 +43,51 @@ class PopularFoodDetail extends StatelessWidget {
               ],
             ),
           ),
-         //introduction section
+          //introduction section
           Positioned(
             left: 0,
             right: 0,
             bottom: 0,
             top: Dimensions.popularFoodImgSize - 20,
             child: Container(
-                padding: EdgeInsets.only(
-                    left: Dimensions.width20,
-                    right: Dimensions.width20,
-                    top: Dimensions.height20),
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(Dimensions.radius30),
-                        topRight: Radius.circular(Dimensions.radius30)),
-                    color: Colors.white),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    AppColumn(text: "Chinese Side"),
-                    SizedBox(
-                      height: Dimensions.height20,
-                    ),
-                    BigText(text: "Introduce"),
-                    SizedBox(
-                      height: Dimensions.height20,
-                    ),
-                    Expanded(child: SingleChildScrollView(child: ExpandableTextWidget(text: "Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinatedChicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated,another somethinghgea aghoai nragqaghH HTG GNURaqhHUGABGUGALHGREWUGSHishionriehoinherhdno;oseghe;ohgngeheo;highiog;jerneghikguiwgbvweug")))
-                  ],
-                ),
-                ),
+              padding: EdgeInsets.only(
+                  left: Dimensions.width20,
+                  right: Dimensions.width20,
+                  top: Dimensions.height20),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(Dimensions.radius30),
+                      topRight: Radius.circular(Dimensions.radius30)),
+                  color: Colors.white),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  AppColumn(text: "Chinese Side"),
+                  SizedBox(
+                    height: Dimensions.height20,
+                  ),
+                  BigText(text: "Introduce"),
+                  SizedBox(
+                    height: Dimensions.height20,
+                  ),
+                  Expanded(
+                      child: SingleChildScrollView(
+                          child: ExpandableTextWidget(
+                              text:
+                                  "Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinatedChicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated Chicken marinated,another somethinghgea aghoai nragqaghH HTG GNURaqhHUGABGUGALHGREWUGSHishionriehoinherhdno;oseghe;ohgngeheo;highiog;jerneghikguiwgbvweug")))
+                ],
+              ),
+            ),
           ),
-         
-         
         ],
       ),
       bottomNavigationBar: Container(
-        height: Dimensions. bottomHeightBar,
+        height: Dimensions.bottomHeightBar,
         padding: EdgeInsets.only(
             top: Dimensions.height20,
-                  bottom: Dimensions.height20,
-                  left: Dimensions.width20,
-                  right: Dimensions.width20),
+            bottom: Dimensions.height20,
+            left: Dimensions.width20,
+            right: Dimensions.width20),
         decoration: BoxDecoration(
             color: Colors.grey[100],
             borderRadius: BorderRadius.only(
